@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortaliças Frescas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="img/logo-hortaliças.svg" alt="Logo Hortaliças" class="logo">
+            <div class="nav-links">
+                <a class="nav-link" href="#recursos">Recursos</a>
+                <a class="nav-link" href="#video-section">Como Funciona</a>
+                <a class="nav-link" href="#precos">Preços</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="recursos">
+            <div class="feature">
+                <h2>🍅 Hortaliças Fresquinhas</h2>
+                <p>Colhidas diariamente diretamente da horta para sua mesa</p>
+            </div>
+            <div class="feature">
+                <h2>🌱 100% Orgânicas</h2>
+                <p>Cultivadas sem agrotóxicos ou produtos químicos</p>
+            </div>
+            <div class="feature">
+                <h2>🚚 Entrega Rápida</h2>
+                <p>Receba em até 24h após a colheita</p>
+            </div>
+        </section>
+
+        <section id="video-section">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com" frameborder="0"
+                allowfullscreen></iframe>
+        </section>
+
+        <section id="precos" class="pricing">
+            <div class="price-card">
+                <h3>Cesta Básica</h3>
+                <p class="price">R$ 49,90/semana</p>
+                <ul>
+                    <li>5 variedades de hortaliças</li>
+                    <li>Quantidade para 2 pessoas</li>
+                </ul>
+            </div>
+            <div class="price-card">
+                <h3>Cesta Premium</h3>
+                <p class="price">R$ 89,90/semana</p>
+                <ul>
+                    <li>8 variedades de hortaliças</li>
+                    <li>Quantidade para 4 pessoas</li>
+                    <li>Frutos orgânicos inclusos</li>
+                </ul>
+            </div>
+        </section>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2>Receba Nossas Ofertas!</h2>
+            <input type="email" id="email" name="email" placeholder="Digite seu melhor email" required>
+            <input type="submit" id="submit" value="Quero Ofertas!">
+        </form>
+    </main>
+</body>
+
+</html>
