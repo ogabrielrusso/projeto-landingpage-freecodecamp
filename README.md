@@ -1,7 +1,8 @@
-# projeto-landingpage-freecodecamp
+# 🔥 projeto-landingpage-freecodecamp
 
-## Projeto Ladingpage 
+## 🖥️ Projeto Ladingpage 
 
+__Desafio proposto:__
 
 Build a Product Landing Page
 Objective: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks. Do not copy this demo project.
